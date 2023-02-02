@@ -26,7 +26,7 @@ body{
     width: 100%;
     height: 30%;
     z-index: -1;
-    margin-left:-170px ;
+    margin-left:-169px ;
 }
 #card .me{
     width: 35%;
@@ -68,7 +68,7 @@ body{
         width: 90%;       
 }
 #card #top img{
-    margin-left:-161px ;
+    margin-left:-160px ;
 }   
 #card #social{
     margin: 30px 110px;
