@@ -67,9 +67,9 @@ body{
     #card{
         width: 90%;       
 }
-#card #top img{
-    margin-left:-186px ;
-}   
+/* #card #top img{
+    margin-left:-171px ;
+}    */
 #card #social{
     margin: 30px 110px;
 }
