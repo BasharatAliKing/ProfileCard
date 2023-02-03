@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calander</title>
+    <style>
+        body{
+            font-family: 'Noto Sans', sans-serif;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+   background: url(./applicatio-bg.webp)no-repeat center center/cover;
+   text-align: center;
+   color: black;
+   font-weight: bold;
+        }
+        #calander{
+            width: 50%;
+            margin: 0px  auto;
+            margin-top: 50px;
+        }
+        table, th, td,tr {
+          border: 1px solid black;
+        }
+        .mar{
+            color: rgb(179, 179, 179);
+        }
+        .jan{
+            color: rgb(179, 179, 179);
+        }
+        @media (max-width:576px){
+            #calander{
+                width: 90%;
+            }
+        }
+        </style>
+</head>
+<body>
+    <div id="calander">
+        <table style="width:100%">
+            <tr> <th colspan="7">Calendar Feb, 2023</th></tr>
+            <tr>
+              <td>Sun</td>
+              <td>Mon</td>
+              <td>Tue</td>
+              <td>Wed</td>
+              <td>Thr</td>
+              <td>Fri</td>
+              <td>Sat</td>
+            </tr>
+            <tr>
+              <td class="jan">29</td>
+              <td class="jan">30</td>
+              <td class="jan">31</td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td class="mar">1</td>
+                <td class="mar">2</td>
+                <td class="mar">3</td>
+                <td class="mar">4</td>
+              </tr>
+          
+          </table>
+          
+    </div>
+</body>
+</html>
